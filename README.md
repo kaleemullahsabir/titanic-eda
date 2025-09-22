@@ -7,10 +7,10 @@
 This project performs exploratory data analysis on the Titanic dataset to study survival patterns based on passenger features.
 
 ## 📂 Files Included
-- `EDA1.ipynb` / `EDA2.ipynb` — Jupyter notebooks with full analysis and visualizations.
-- `titanic_cleaned.csv` — Cleaned dataset after preprocessing.
-- `./figures/` — Folder with 5–6 high-resolution PNG figures.
-- `report.html` — Exported HTML version of the notebook.
+- `titanic_notebook.ipynb` — Jupyter notebook with full EDA, feature engineering, visualizations, and model training.
+- `titanic_cleaned.csv` — Cleaned Titanic dataset after preprocessing.
+- `./figures/` — Folder containing **6 high-resolution PNG figures** (barplots, heatmaps, boxplots, correlations).
+- `titanic_notebook.html` — Exported HTML version of the notebook for sharing or submission.
 
 ## 🔑 Key Findings
 - Overall survival rate: **XX%**.
@@ -21,7 +21,5 @@ This project performs exploratory data analysis on the Titanic dataset to study 
 
 ## ▶️ How to Run
 1. Place `train.csv` in the same folder.
-2. Open Jupyter Notebook and run `EDA1.ipynb` or `EDA2.ipynb`.
+2. Open Jupyter Notebook and run `titanic_notebook.ipynb`.
 3. Figures and cleaned CSV will be saved automatically in `./figures/`.
-
----
